@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "spell": "npx cspell ./_posts/**/*.md**"
+  },
   "dependencies": {
     "@primer/octicons": "^16.0.0",
     "autoprefixer": "^10.3.6",
