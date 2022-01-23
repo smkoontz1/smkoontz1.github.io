@@ -14079,9 +14079,11 @@ img, video { max-width: 100%; height: auto; }
 .red-text { color: red; }
 
 /* Responsive bg image example */
-.main-bg-image { background-image: url("../images/bg_trees_1_web.jpg"); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+.img-full-screen { background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
 
-.blog-bg-image { background-image: url("../images/blog_mountains_1_web.jpg"); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+.img-full-screen.main-bg { background-image: url("../images/bg_trees_1_web.jpg"); }
+
+.img-full-screen.blog-bg { background-image: url("../images/blog_mountains_1_web.jpg"); }
 
 .nav-item { margin: 0.5rem; border-top-width: 2px; border-bottom-width: 2px; --tw-border-opacity: 1; border-color: rgba(0, 0, 0, var(--tw-border-opacity)); --tw-border-opacity: 0; padding-left: 0.5rem; padding-right: 0.5rem; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
 
