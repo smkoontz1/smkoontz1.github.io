@@ -14075,10 +14075,6 @@ img, video { max-width: 100%; height: auto; }
 
 .octicon { display: inline-block; vertical-align: text-top; fill: currentColor; overflow: visible; }
 
-/* Example custom style */
-.red-text { color: red; }
-
-/* Responsive bg image example */
 .img-full-screen { background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
 
 .img-full-screen.main-bg { background-image: url("../images/bg_trees_1_web.jpg"); }
