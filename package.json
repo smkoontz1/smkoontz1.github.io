@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build:prod": "JEKYLL_ENV=production bundle exec jekyll build",
     "spell": "npx cspell ./_posts/**/*.md**"
   },
   "dependencies": {
