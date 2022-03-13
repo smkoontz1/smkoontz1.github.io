@@ -14145,6 +14145,12 @@ img, video { max-width: 100%; height: auto; }
 
 .post-body a { --tw-text-opacity: 1; color: rgba(55, 65, 81, var(--tw-text-opacity)); text-decoration: underline; }
 
+.post-image-container { display: flex; justify-content: center; }
+
+.post-image { max-width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+.post-image p { margin-top: 0.5rem; margin-bottom: 0px; text-align: center; font-size: 0.875rem; line-height: 1.25rem; }
+
 .read-more-link { margin-right: 1.25rem; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)); }
 
 .read-more-link:hover { --tw-translate-x: 0.25rem; }

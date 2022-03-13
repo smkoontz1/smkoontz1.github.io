@@ -1,5 +1,8 @@
 {
   "scripts": {
+    "start": "bundle exec jekyll serve",
+    "start:livereload": "bundle exec jekyll serve --livereload",
+    "start:drafts": "bundle exec jekyll serve --livereload --drafts",
     "build:prod": "JEKYLL_ENV=production bundle exec jekyll build",
     "spell": "npx cspell ./_posts/**/*.md**"
   },
